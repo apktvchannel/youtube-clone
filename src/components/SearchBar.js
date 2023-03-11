@@ -12,7 +12,7 @@ function SearchBar() {
     event.preventDefault();
 
     if (searchTerm) {
-      navigate(`/search/${searchTerm}`);
+      navigate(`/youtube-clone/search/${searchTerm}`);
 
       searchTerm("");
     }
